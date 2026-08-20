@@ -1,0 +1,25 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+aiofiles>=23.2.1
+
+# Computer Vision
+opencv-python-headless>=4.9.0
+mediapipe>=0.10.14
+
+# Data Processing
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.13.0
+
+# Database
+sqlalchemy>=2.0.30
+aiosqlite>=0.20.0
+
+# AI Coaching (optional — falls back to deterministic engine if missing)
+google-generativeai>=0.7.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0

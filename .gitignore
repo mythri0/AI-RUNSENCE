@@ -1,0 +1,4 @@
+ai-runsense/backend/.env
+ai-runsense/backend/data/uploads/
+ai-runsense/backend/data/processed/
+ai-runsense/frontend/node_modules/
