@@ -1,0 +1,14 @@
+services:
+  # Backend Web Service
+  - type: web
+    name: ai-runsense-backend
+    env: python
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && gunicorn app.main:app -w 2 -k uvicorn.workers.UvicornWorker"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13
+      - key: GEMINI_API_KEY
+        sync: false # Requires manual entry in Render dashboard
+
+

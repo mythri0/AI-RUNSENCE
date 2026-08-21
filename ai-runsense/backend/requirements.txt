@@ -23,3 +23,7 @@ google-generativeai>=0.7.0
 python-dotenv>=1.0.0
 pydantic>=2.7.0
 pydantic-settings>=2.3.0
+
+# Deployment (Render)
+imageio-ffmpeg>=0.4.9
+gunicorn>=21.2.0
