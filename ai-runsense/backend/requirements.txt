@@ -5,10 +5,9 @@ aiofiles>=23.2.1
 
 # Computer Vision
 opencv-python-headless>=4.9.0
-mediapipe==0.10.30
-
+https://files.pythonhosted.org/packages/ad/83/56f760fecdc60de84c529d6c05c9dfc7d972617c6632bd254d5e021e5b16/mediapipe-0.10.21-cp311-cp311-manylinux_2_28_x86_64.whl
 # Data Processing
-numpy>=1.26.0
+numpy==1.26.4
 pandas>=2.2.0
 scipy>=1.13.0
 
