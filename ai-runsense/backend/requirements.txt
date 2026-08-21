@@ -5,7 +5,7 @@ aiofiles>=23.2.1
 
 # Computer Vision
 opencv-python-headless>=4.9.0
-mediapipe==0.10.21
+mediapipe==0.10.30
 
 # Data Processing
 numpy>=1.26.0
